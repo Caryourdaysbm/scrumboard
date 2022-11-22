@@ -1,0 +1,55 @@
+
+form, input{
+    display: flex;
+    flex-direction: column;
+    
+    width: 500px;
+    padding: 15px;
+    margin: auto;
+    border-radius:15px;
+    background: linear-gradient(145deg, #030465, #030455);
+    box-shadow: -5px -5px 10px #02034b,
+    5px 5px 10px #040571 ;
+    color: white;
+
+    /* align-items: center; */
+
+}
+input[type=text],
+input[type=password],
+input[type=email] {
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px 10px 0px;
+    outline: none;
+    border-radius:15px;
+    background: linear-gradient(145deg, #030455, #030465);
+    box-shadow: 5px 5px 12px #02034b,
+    -5px -5px 12px #040571 ;
+    color: white;
+}
+label{
+    color: white;
+}
+button{
+    width: fit-content;
+    padding: 10px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.5 ease;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #00b4d8;
+    font-weight: 600;
+}
+button:hover{
+    background-color: white;
+    color:#00b4d8 ;
+
+}
+.message {
+    color: red;
+    font-size: 15px;
+    font-weight: 500;
+}
